@@ -112,6 +112,10 @@ body {
 
 .menu-link:hover, .menu-link:focus {
     color: var(--accent-color);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-duration: 250ms; 
+    animation-delay: 250ms;
+    
 }
 .menu-item {
     position: relative;
@@ -144,6 +148,7 @@ margin-top: 28px;
     fill: var(--accent-color);
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
 }
 
 /* HERO */
@@ -199,6 +204,7 @@ margin-top: 28px;
     background-color: #188ce8;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
 }
 
 /*  OUR ADVANTAGES */
@@ -373,6 +379,7 @@ margin-top: 28px;
     background-color: var(--accent-color);
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
 }
 
 .social-list-icon {
@@ -426,6 +433,7 @@ margin-top: 28px;
     border: 1px solid var(--accent-color);
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
 }
 
 .clients-list-icon {
@@ -470,6 +478,7 @@ margin-top: 28px;
     color: var(--accent-color);
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
 }
 
 .footer-contacts-link {
@@ -484,6 +493,7 @@ margin-top: 28px;
     color: var(--accent-color);
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
 }
 
 .studio-not-web-footer {
@@ -536,6 +546,7 @@ address {
     background-color: var(--accent-color);
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
 }
 
 .footer-social-list-icon {
@@ -621,6 +632,7 @@ transform: translate(-50%, -50%);
     border-radius: 4px;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
 }
 
 /* Projects list*/
@@ -646,6 +658,7 @@ transform: translate(-50%, -50%);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
  }
 
 .projects-list-content {
@@ -690,6 +703,7 @@ transform: translate(-50%, -50%);
     transition: transform 500ms linear;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-duration: 250ms; 
+    animation-delay: 250ms;
 }
     .projects-list-img-wrapper {
         position: relative;
